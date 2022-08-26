@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Rubik+Dirt&family=Rubik+Maze&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex-container{
+    margin: 200px auto;
+    text-align: center;
+}
+.flex-container h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+}
+.flex-container p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.item_box{
+    padding: 30px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+
+.counter{
+    margin: 30px 0;
+    height: 150px;
+    width: 150px;
+    background-image: radial-gradient( circle 976px at 51.2% 51%,  rgba(11,27,103,1) 0%, rgba(16,66,157,1) 0%, rgba(11,27,103,1) 17.3%, rgba(11,27,103,1) 58.8%, rgba(11,27,103,1) 71.4%, rgba(16,66,157,1) 100.2%, rgba(187,187,187,1) 100.2% );
+    -webkit-box-shadow: 2px 3px 41px -8px rgba(0,0,0,1);
+    -moz-box-shadow: 2px 3px 41px -8px rgba(0,0,0,1);
+    box-shadow: 2px 3px 41px -8px rgba(0,0,0,1);
+    border-radius: 50%;
+}
+
+.counter h2{
+    font-family: 'Rubik Maze', cursive;
+    font-weight: 400;
+    font-size: 65px;
+    color: #f49f1c;
+    text-align: center;
+    line-height: 150px;
+}
+.counter h3{
+    font-family: 'Rubik Maze', cursive;
+    font-weight: 400;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    padding-top: 8px;
+}
