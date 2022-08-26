@@ -5,3 +5,5 @@ This is counterUp plugin project. We can see how the number or time is counted f
 </p>
 
 <a href="https://ibb.co/tc623D5"><img src="https://i.ibb.co/mtKyS47/counter-Up.png" alt="counter-Up" border="0"></a>
+
+Click here to see page - https://fahim-hossain-munna.github.io/counterUp-Plugin-vanila-js-/
